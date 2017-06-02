@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Εξωστρεφείς δράσεις</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Κωδικός</string>
+    <string name="action_sign_in">Σύνδεση</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">Λάθος διεύθηνση email</string>
+    <string name="error_invalid_password">Πολύ μικρος κωδικός</string>
+    <string name="error_incorrect_password">Λάθος κωδικός</string>
+    <string name="error_field_required">Το πεδίο απαιτήται</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="title_activity_main">Εξωστρεφείς δράσεις ΤΕΙ Αθήνας</string>
+    <string name="title_activity_list">Αποτελέσματα</string>
+
+    // services text
+    <string name="carpooling_service_text">Εύρεση Συνεπιβατών</string>
+    <string name="carpooling_service_info">Μετακινήσου, βρες τον συνεπιβάτη σου!</string>
+    <string name="carpooling_service_link">carpooling.teiath.gr</string>
+    <string name="swaps_service_text">Διάθεση και Ανταλλαγή Προϊόντων</string>
+    <string name="swaps_service_info">Αντάλλαξέ το και βρες αυτό που θέλεις!</string>
+    <string name="swaps_service_link">swaps.teiath.gr</string>
+    <string name="educult_service_text">Εκπαιδευτικές και Πολιτισμικές Δράσεις</string>
+    <string name="educult_service_info">Ενημερώσου και λάβε μέρος!</string>
+    <string name="educult_service_link">educult.teiath.gr</string>
+    <string name="offers_service_text">Έξυπνες Φοιτητικές Προσφορές</string>
+    <string name="offers_service_info">Επωφεληθείτε από τις προσφορές των επιχειρήσεων του δήμου μας</string>
+    <string name="offers_service_link">offers.teiath.gr</string>
+    <string name="roommates_service_text">Εύρεση Συγκατοίκων</string>
+    <string name="roommates_service_info">Πετύχατε στο ΤΕΙ Αθήνας και αναζητάτε συγκάτοικο;</string>
+    <string name="roommates_service_link">roommates.teiath.gr</string>
+    <string name="openactions_service_text">Εθελοντικές Δράσεις</string>
+    <string name="openactions_service_info">Έλα μαζί μας γίνε εθελοντής - Οργάνωσε τη δική σου εθελοντική δράση</string>
+    <string name="openactions_service_link">openactions.teiath.gr</string>
+
+    //API
+    <string name="api_carpooling_all">https://swaps.teiath.gr/services/products</string>
+    <string name="api_swaps_all">https://swaps.teiath.gr/services/products</string>
+    <string name="api_educult_all">https://swaps.teiath.gr/services/products</string>
+    <string name="api_offers_all">https://swaps.teiath.gr/services/products</string>
+    <string name="api_roommates_all">https://swaps.teiath.gr/services/products</string>
+    <string name="api_openactions_all">https://swaps.teiath.gr/services/products</string>
+
+
+    <string name="title_activity_service_functions">ServiceFunctions</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+</resources>
