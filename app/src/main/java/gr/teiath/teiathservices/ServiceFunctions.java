@@ -21,6 +21,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
@@ -126,7 +127,12 @@ public class ServiceFunctions extends AppCompatActivity implements NavigationVie
                 ListView lv = (ListView) findViewById(R.id.mainlist);
                 ListAdapter la = new SimpleAdapter(this,data,R.layout.listview_item,fromArray,to);
                 lv.setAdapter(la);
+                lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
+                    }
+                });
             }
         }else{
             AlertDialog alertDialog = new AlertDialog.Builder(this).create();
